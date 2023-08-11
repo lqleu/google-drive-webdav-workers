@@ -1,10 +1,10 @@
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [{}];
 var config = {
-    client_id: '',
-    client_secret: '',
-    refresh_token: '', // your refresh_token
-    service_account: true, // true if you're using Service Account instead of user account
+    client_id: '746239575955-c4d2o1ahg4ts6ahm3a5lh5lp9g8m15h4.apps.googleusercontent.com',
+    client_secret: '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',
+    refresh_token: '1//0cth85bEh5Y3BCgYIARAAGAwSNwF-L9IrZMo7DDKPmTlgcupZKovP67U46KzrXgKtMReV6w0fKCv5DLejHw33ZROEWYXfIsEgNp8', // your refresh_token
+    service_account: false, // true if you're using Service Account instead of user account
     service_account_json: serviceaccounts[Math.floor(Math.random() * serviceaccounts.length)], // don't touch this one
     link: 'https://github.com/PBhadoo/google-drive-webdav-workers',
     name: 'GitHub',
